@@ -39,7 +39,7 @@
         <header></header>
         <h1 class="site-heading text-center text-white d-none d-lg-block">
             <span class="site-heading-upper text-primary mb-3"></span>
-            <span class="site-heading-lower">Buy Now</span>
+            <span class="site-heading-lower">Shop</span>
         </h1>
         <section class="page-section cta">
             <div class="container">
@@ -49,16 +49,25 @@
                             
                                 <!-- <h2 class="section-heading mb-5">
                                     <span class="section-heading-upper"></span>
-                                    <span class="section-heading-lower">Enjoy!</span>
+                                    <span class="section-heading-lower">Shop</span>
                                 </h2> -->
 
                 <div class="prd-img">
         
                   <!-- PUT BUY BUTTON AND LINK TO SQUARE HERE -->
                   <br>
-                  <div style="
+                  <div id="confirmAge">
+                      <h3>18+</h3>
+                      <p>You must be 18 years or older to purchase
+                          alcohol.
+                      </p>
+                      <h4>Are you over 18?</h4>
+                      <button onclick="showSquare()" type="button" class="btn btn-success">Yes</button>
+                      <a href="index.html"><button type="button" class="btn btn-danger">No</button></a>
+                  </div>
+                  <div id="squareBuyBox" style="
                   overflow: auto;
-                  display: flex;
+                  /* display: flex; */
                   flex-direction: column;
                   justify-content: flex-end;
                   align-items: center;
@@ -102,6 +111,8 @@
                 Secure checkout powered by Square.   
             </p>
             <p class="squareP">Please note delivery charges apply</p>
+    
+            <p class="squareP">Delivery to UK Mainland only</p>
             <br>
     </div>
                     

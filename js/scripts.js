@@ -7,3 +7,8 @@
 $('.list-hours li').eq(new Date().getDay()).addClass('today');
 
 document.getElementById('cYear').innerText = new Date().getFullYear()
+
+function showSquare() {
+    document.getElementById('confirmAge').style.display = 'none';
+    document.getElementById('squareBuyBox').style.display = 'flex';
+}

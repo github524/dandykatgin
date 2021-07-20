@@ -10147,6 +10147,36 @@ header {
   color: #71767B
 }
 
+#confirmAge {
+  z-index: 1000;  
+  display: block;
+  /* height: 200px; */
+  padding:5px;
+  width: 258.96px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: -2px 10px 5px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  box-shadow: 2px 2px gray;
+}
+
+#confirmAge h3 {
+  color: red;
+  padding:2px;
+  font-size: 2em; 
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+#confirmAge button {
+  display:inline-block;
+  text-align: center;
+  width: 80px;
+  margin: 15px 5px 15px 5px;
+}
+
+#squareBuyBox {
+  display: none;
+}
 .prd-action{
   display:inline-block;
   width:100%;
