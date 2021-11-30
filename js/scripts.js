@@ -10,5 +10,10 @@ document.getElementById('cYear').innerText = new Date().getFullYear()
 
 function showSquare() {
     document.getElementById('confirmAge').style.display = 'none';
-    document.getElementById('squareBuyBox').style.display = 'flex';
+    // document.getElementById('squareBuyBox').style.display = 'flex';
+    var x = document.getElementsByClassName('squareBuyBox');
+    var i;
+    for (i = 0; i < x.length; i++) {
+    x[i].style.display = 'flex';
+}
 }

@@ -10174,8 +10174,20 @@ header {
   margin: 15px 5px 15px 5px;
 }
 
-#squareBuyBox {
+
+.squareBuyBox {
   display: none;
+  overflow: auto;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 258.96px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: -2px 10px 5px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  font-family: SQ Market, SQ Market, Helvetica, Arial, sans-serif;
 }
 .prd-action{
   display:inline-block;
